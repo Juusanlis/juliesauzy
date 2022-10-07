@@ -21,6 +21,11 @@ Text Domain: juliesauzy
   --light-white: rgba(255, 255, 255, 0.5);
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
   scroll-behavior: smooth; // scroll de manière fluide et non instantanée à une ancre
   scroll-padding-top: 120px; // ajoute du padding au scroll pour éviter d'avoir le header / menu qui masque la section scrollée
