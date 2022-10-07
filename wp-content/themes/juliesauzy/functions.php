@@ -8,5 +8,7 @@ function wpdocs_theme_name_scripts() {
   $active_theme_url = get_stylesheet_directory_uri();
 	wp_enqueue_style( 'damier', $active_theme_url . '/css/damier.css' );
 	wp_enqueue_script( 'tailwind', 'https://cdn.tailwindcss.com' );
+	wp_enqueue_script( 'lottie', 'https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js' );
+	wp_enqueue_script( 'main', $active_theme_url . '/js/main.js', array('tailwind', 'lottie') );
 	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
 }
