@@ -1,0 +1,209 @@
+/*
+Theme Name: Julie Sauzy
+Theme URI: https://wordpress.org/themes/juliesauzy/
+Author: Julie Sauzy
+Author URI: https://wordpress.org/
+Description: Julie Sauzy
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: juliesauzy
+
+*/
+
+:root {
+  --beige: #F7F6F7;
+  --black: #282B30;
+  --dark-green: #209284;
+  --light-green: #DEEFED;
+  --dark-corail: #FF9281;
+  --light-corail: #FEDED9;
+  --light-white: rgba(255, 255, 255, 0.5);
+}
+
+html {
+  scroll-behavior: smooth; // scroll de manière fluide et non instantanée à une ancre
+  scroll-padding-top: 120px; // ajoute du padding au scroll pour éviter d'avoir le header / menu qui masque la section scrollée
+}
+
+body {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+  font-family: "DM Serif Display", Sans-serif !important;
+  font-size: 51px !important;
+  font-weight: 500 !important;
+  letter-spacing: -1.5px !important;
+}
+
+h2 {
+  font-family: "DM Serif Display", Sans-serif !important;
+  font-size: 45px !important;
+  font-weight: 500 !important;
+  /* letter-spacing: -1.5px !important; */
+}
+
+h3 {
+  font-family: "DM Serif Display", Sans-serif !important;
+  font-size: 35px !important;
+  font-weight: 500 !important;
+  /* letter-spacing: -1.5px !important; */
+}
+
+h4 {
+  font-family: "DM Serif Display", Sans-serif !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+  letter-spacing: -1.5px !important;
+}
+
+.header li {
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+}
+
+.header li>a {
+  position: relative;
+}
+
+.header li:not(.logo):not(.btn_wrapper)>a::after {
+  content: "";
+  background-color: var(--dark-green);
+  height: 3px;
+  border-radius: 8px;
+  width: 80%;
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  top: auto;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  transition: all 400ms ease-in-out;
+  transform-origin: left center;
+}
+
+
+.header h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+}
+
+.logo {
+  font-size: 45px !important;
+}
+
+.btn {
+  color: var(--dark-green);
+  background-color: var(--light-green);
+  padding: 6px 18px;
+  border-radius: 8px;
+}
+
+.btn_header {
+  color: white;
+  background-color: var(--dark-green);
+  padding: 6px 18px;
+  border-radius: 8px;
+}
+
+.see_site {
+  border-radius: 15px;
+  padding: 4px 12px;
+  color: var(--dark-green);
+  border: 1px solid var(--dark-green);
+}
+
+.see_site_corail {
+  border-radius: 15px;
+  padding: 4px 12px;
+  color: var(--dark-corail);
+  border: 1px solid var(--dark-corail);
+}
+
+hr {
+  border-width: 0.2px;
+  border-image: linear-gradient(to right, var(--black), var(--light-white), var(--black)) 1;
+}
+
+/* Hover */
+.header li:not(.logo):not(.btn_wrapper)>a:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.btn:hover {
+  color: white;
+  background-color: var(--dark-green);
+  transition: all 500ms ease-in-out;
+}
+
+.btn_header:hover {
+  color: #000;
+  background-color: #fff;
+  transition: all 500ms ease-in-out;
+}
+
+.see_site:hover {
+  color: #fff;
+  background-color: var(--dark-green);
+  transition: all 500ms ease-in-out;
+}
+
+.see_site_corail:hover {
+  color: #fff;
+  background-color: var(--dark-corail);
+  transition: all 500ms ease-in-out;
+}
+
+.banner_contact a:hover {
+  color: var(--dark-corail);
+}
+
+.footer i:hover {
+  color: white;
+  transition: all 500ms ease-in-out;
+}
+
+.credits span:hover, a:hover {
+  color: white;
+  transition: all 400ms ease-in-out;
+}
+
+/* Selection */
+.header li, h2, h3, h4, a {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.text ::selection {
+  background: var(--light-corail);
+}
+
+.projects p::selection {
+  background: var(--light-green);
+}
+
+.types_of_projects p::selection {
+  color: var(--dark-corail);
+  background: var(--black);
+}
+
+
+/* Underline */
+.projects .title {
+  text-decoration-line: underline;
+  text-decoration-thickness: 8px;
+  text-decoration-color: var(--light-corail);
+}
+
+.title_projects {
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: var(--light-green);
+}
