@@ -19,6 +19,7 @@ Text Domain: juliesauzy
 :root {
   --beige: #F7F6F7;
   --black: #282B30;
+  --light-black: rgba(000, 000, 000, 0.3);
   --dark-green: #209284;
   --light-green: #DEEFED;
   --dark-corail: #FF9281;
@@ -48,14 +49,12 @@ h2 {
   font-family: "DM Serif Display", Sans-serif !important;
   font-size: 45px !important;
   font-weight: 500 !important;
-  /* letter-spacing: -1.5px !important; */
 }
 
 h3 {
   font-family: "DM Serif Display", Sans-serif !important;
   font-size: 35px !important;
   font-weight: 500 !important;
-  /* letter-spacing: -1.5px !important; */
 }
 
 h4 {
@@ -74,6 +73,7 @@ h4 {
   position: relative;
 }
 
+/* effet barre verte header */
 .header li:not(.logo):not(.btn_wrapper)>a::after {
   content: "";
   background-color: var(--dark-green);
@@ -106,6 +106,7 @@ h4 {
   background-color: var(--light-green);
   padding: 6px 18px;
   border-radius: 8px;
+  transition: all 500ms ease-in-out;
 }
 
 .btn_header {
@@ -113,6 +114,7 @@ h4 {
   background-color: var(--dark-green);
   padding: 6px 18px;
   border-radius: 8px;
+  transition: all 500ms ease-in-out;
 }
 
 .see_site {
@@ -120,6 +122,7 @@ h4 {
   padding: 4px 12px;
   color: var(--dark-green);
   border: 1px solid var(--dark-green);
+  transition: all 300ms ease-in-out;
 }
 
 .see_site_corail {
@@ -127,12 +130,32 @@ h4 {
   padding: 4px 12px;
   color: var(--dark-corail);
   border: 1px solid var(--dark-corail);
+  transition: all 300ms ease-in-out;
 }
+
+.input_infos {
+  border: 1px solid var(--light-black);
+  padding: 9px;
+  border-radius: 9px;
+}
+
+.btn_form {
+  color: var(--dark-green) !important;
+  background-color: var(--light-green) !important;
+  padding: 8px 24px;
+  border-radius: 8px;
+  transition: all 300ms ease-in-out;
+}
+
+/* .input_infos:active {
+  border: 1px solid var(--light-corail);
+} */
 
 hr {
   border-width: 0.2px;
   border-image: linear-gradient(to right, var(--black), var(--light-white), var(--black)) 1;
 }
+
 
 /* Hover */
 .header li:not(.logo):not(.btn_wrapper)>a:hover::after {
@@ -142,29 +165,30 @@ hr {
 .btn:hover {
   color: white;
   background-color: var(--dark-green);
-  transition: all 500ms ease-in-out;
 }
 
 .btn_header:hover {
   color: #000;
   background-color: #fff;
-  transition: all 500ms ease-in-out;
 }
 
 .see_site:hover {
   color: #fff;
   background-color: var(--dark-green);
-  transition: all 500ms ease-in-out;
 }
 
 .see_site_corail:hover {
   color: #fff;
   background-color: var(--dark-corail);
-  transition: all 500ms ease-in-out;
 }
 
 .banner_contact a:hover {
   color: var(--dark-corail);
+}
+
+.btn_form:hover {
+  color: white !important;
+  background-color: var(--dark-green) !important;
 }
 
 .footer i:hover {
@@ -177,13 +201,14 @@ hr {
   transition: all 400ms ease-in-out;
 }
 
+
 /* Selection */
-.header li, h2, h3, h4, a {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: -moz-none;
-    -o-user-select: none;
-    user-select: none;
+.header li, h2, h3, h4, a, img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .text ::selection {
@@ -207,8 +232,50 @@ hr {
   text-decoration-color: var(--light-corail);
 }
 
-.title_projects {
+/* .title_projects {
   text-decoration-line: underline;
   text-decoration-thickness: 4px;
   text-decoration-color: var(--light-green);
+} */
+
+/* .title_form {
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: var(--light-green);
+} */
+
+.contact_form .contactez_nous>h2::after {
+  content: "";
+  background-color: var(--light-green);
+  height: 13px;
+  border-radius: 15px 0px 15px 0px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  bottom: 10px;
+  top: auto;
+  right: auto;
+  left: 46%;
+  transform: translateX(-50%) scaleX(1);
+  transform-origin: left center;
+  transition: all 400ms ease-in-out;
+}
+
+.title_project_1::before {
+  content: "";
+  background-color: var(--light-corail);
+  height: 13px;
+  border-radius: 15px 0px 15px 0px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  bottom: 10px;
+  top: auto;
+  right: auto;
+  left: 48%;
+  transform: translateX(-50%) scaleX(1);
+  transform-origin: left center;
+  transition: all 400ms ease-in-out;
 }

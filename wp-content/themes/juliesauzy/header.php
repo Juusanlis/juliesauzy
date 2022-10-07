@@ -19,6 +19,7 @@
             colors: {
               "beige": "var(--beige)",
               "black": "var(--black)",
+              "light-black": "var(--light-black)",
               "dark-green": "var(--dark-green)",
               "light-green": "var(--light-green)",
               "dark-corail": "var(--dark-corail)",
