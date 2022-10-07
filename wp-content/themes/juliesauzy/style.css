@@ -11,6 +11,11 @@ Text Domain: juliesauzy
 
 */
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 :root {
   --beige: #F7F6F7;
   --black: #282B30;
