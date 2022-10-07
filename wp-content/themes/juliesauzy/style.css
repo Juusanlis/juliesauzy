@@ -21,18 +21,17 @@ Text Domain: juliesauzy
   --light-white: rgba(255, 255, 255, 0.5);
 }
 
+
 html {
   scroll-behavior: smooth; // scroll de manière fluide et non instantanée à une ancre
   scroll-padding-top: 120px; // ajoute du padding au scroll pour éviter d'avoir le header / menu qui masque la section scrollée
 }
-
 
 body {
     color: #000000;
     font-family: "Poppins", Sans-serif;
     font-weight: 400;
 }
-
 
 h1 {
   font-family: "DM Serif Display", Sans-serif !important;
