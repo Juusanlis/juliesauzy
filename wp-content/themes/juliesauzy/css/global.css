@@ -1,0 +1,57 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --beige: #F7F6F7;
+  --black: #282B30;
+  --light-black: rgba(000, 000, 000, 0.3);
+  --dark-green: #209284;
+  --light-green: #DEEFED;
+  --dark-corail: #FF9281;
+  --light-corail: #FEDED9;
+  --light-white: rgba(255, 255, 255, 0.5);
+}
+
+html {
+  scroll-behavior: smooth; // scroll de manière fluide et non instantanée à une ancre
+  scroll-padding-top: 120px; // ajoute du padding au scroll pour éviter d'avoir le header / menu qui masque la section scrollée
+}
+
+body {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+  font-family: "DM Serif Display", Sans-serif !important;
+  font-size: 51px !important;
+  font-weight: 500 !important;
+  letter-spacing: -1.5px !important;
+}
+
+h2 {
+  font-family: "DM Serif Display", Sans-serif !important;
+  font-size: 45px !important;
+  font-weight: 500 !important;
+}
+
+h3 {
+  font-family: "DM Serif Display", Sans-serif !important;
+  font-size: 35px !important;
+  font-weight: 500 !important;
+}
+
+h4 {
+  font-family: "DM Serif Display", Sans-serif !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+  letter-spacing: -1.5px !important;
+}
+
+hr {
+  border-width: 0.2px;
+  border-image: linear-gradient(to right, var(--black), var(--light-white), var(--black)) 1;
+}
