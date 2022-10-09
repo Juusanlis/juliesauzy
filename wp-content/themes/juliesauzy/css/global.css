@@ -51,6 +51,20 @@ h4 {
   letter-spacing: -1.5px !important;
 }
 
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 39px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 28px !important;
+  }
+}
+
 hr {
   border-width: 0.2px;
   border-image: linear-gradient(to right, var(--black), var(--light-white), var(--black)) 1;

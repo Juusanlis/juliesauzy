@@ -1,9 +1,15 @@
   <!-- Contact form -->
-  <section class="contact_form my-5 py-10 ">
-    <div id="me_contacter" class="container">
+  <section id="me_contacter" class="contact_form lg:my-5 lg:py-10 ">
+    <div class="container">
       <div class="contactez_nous text-center justify-center items-center">
-        <h2 class="title_form relative inline-block my-8">Me contacter</h2>
-        <p  class="mb-20 my-8">Un projet de site en tête ? Une question ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec moi !</p>
+        <h2 class="title_form relative inline-block my-8"
+            data-aos="fade-zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="150"
+            data-aos-once="true">
+            Me contacter
+          </h2>
+        <p  class="lg:mb-20 lg:my-8">Un projet de site en tête ? Une question ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec moi !</p>
 
         <?php
           $form_data = map_deep( $_POST, 'sanitize_text_field' ); // clean values
@@ -69,7 +75,7 @@
 
         <form action="/#me_contacter" method="post">
           <div class="infos_contact m-10">
-            <div class="infos gap-6 grid grid-cols-2 m-auto w-1/2">
+            <div class="gap-6 grid w-full grid-cols-1 lg:grid-cols-2 infos m-auto lg:w-1/2">
               <input class="input_infos" type="text" id="nom" name="nom" placeholder="Nom" required>
               <input class="input_infos" type="text" id="prenom" name="prenom" placeholder="Prénom" required>
               <input class="input_infos" type="email" id="email" name="email" placeholder="Email" required>
@@ -78,9 +84,9 @@
             </div>
 
             <div class="message">
-              <textarea class="input_infos w-1/2 p-2 justify-center items-center mt-6 m-10" rows="10" id="message" name="message" placeholder="Votre message" required></textarea>
+              <textarea class="input_infos my-6 w-full lg:w-1/2 p-2 justify-center items-center mt-6 lg:m-10" rows="10" id="message" name="message" placeholder="Votre message" required></textarea>
             </div>
-            <div class="message_submit mb-8">
+            <div class="message_submit lg:my-0 lg:mb-8">
               <button class="btn_form" type="submit">Envoyer</button>
             </div>
           </div>

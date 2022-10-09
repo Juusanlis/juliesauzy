@@ -1,5 +1,6 @@
 <?php
   get_header(); ?>
+  <?php get_template_part('templates/loader'); ?>
   <?php get_template_part('templates/header'); ?>
 
   <main>
