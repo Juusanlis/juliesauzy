@@ -126,14 +126,6 @@ Text Domain: juliesauzy
   background: var(--black);
 }
 
-
-/* Underline */
-/* .title_projects {
-  text-decoration-line: underline;
-  text-decoration-thickness: 8px;
-  text-decoration-color: var(--light-corail);
-} */
-
 .title_projects::before {
   content: "";
   background-color: var(--light-green);
@@ -191,6 +183,9 @@ Text Domain: juliesauzy
 
 @media (max-width: 1024px) {
   .title_project_1::before {
+    display: none;
+  }
+  .contact_form .contactez_nous>h2::after{
     display: none;
   }
 }

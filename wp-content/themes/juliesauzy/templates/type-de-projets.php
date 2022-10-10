@@ -17,7 +17,7 @@
               data-aos-delay="100"
               data-aos-duration="1000"
               data-aos-once="false"
-              class="text-light-white hover:text-white duration-300 transition-all">Présente une entreprise, une marque,<br> ou une activité, sans générer de ventes<br> directes.</p>
+              class="text-light-white hover:text-white duration-300 transition-all">Site web présentant une entreprise,<br> une marque, ou encore une activité,<br> sans générer de ventes directes.</p>
         </div>
 
         <div class="site_wp">
@@ -27,7 +27,8 @@
               data-aos-delay="250"
               data-aos-duration="1000"
               data-aos-once="false"
-              class="text-light-white hover:text-white duration-300 transition-all">Site rendu administrable et donc<br> modifiable par le client.</p>
+              class="text-light-white hover:text-white duration-300 transition-all">Développement de sites sur-mesure,<br> entièrement administrables.<br>
+                                                                                    Grâce au CMS WordPress vous bénéficiez<br> d'une interface de gestion complète,<br> modifiable sur le long terme. </p>
         </div>
 
         <div class="site_commerce">
@@ -37,7 +38,7 @@
               data-aos-delay="400"
               data-aos-duration="1000"
               data-aos-once="false"
-              class="text-light-white hover:text-white duration-300 transition-all">Permet de réaliser des ventes en ligne.</p>
+              class="text-light-white hover:text-white duration-300 transition-all">Commerce en ligne qui permet de toucher<br> une large clientèle en toute heure, et <br>contribue au développement de l'entreprise.</p>
         </div>
       </div>
 
