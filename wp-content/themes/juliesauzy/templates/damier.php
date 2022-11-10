@@ -3,12 +3,20 @@
 
         <div class="text leading-tight">
           <h1 class="my-5 lg:mb-5">Bienvenue !<br> Je suis Julie Sauzy,<br> <span class="text-dark-corail"> Développeur web freelance.</span></h1>
-          <p class="lg:mb-20 my-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin<br> molestie malesuada. Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. <br>Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor<br> volutpat. Curabitur aliquet quam id dui posuere blandit. <br>Curabitur aliquet quam id dui posuere blandit. <br>Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id<br> orci porta dapibus. Nulla porttitor accumsan tincidunt.</p>
+          <p class="lg:mb-20 my-8 text-lg text-neutral-500">
+            En réorientation professionnelle dans le développement web suite à une<br>
+            formation au Wagon <em>(bootcamp)</em>, je me forme désormais à WordPress ainsi qu'au<br>
+            langage PHP.
+          </p>
           <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/CV_Julie_Sauzy.pdf" download class="btn">Télécharger mon CV <i class="fa-solid fa-download"></i></a>
         </div>
 
-      <div id="scene"  data-relative-input="true" class="photo hidden lg:block lg:w-2/5 h-full">
-        <img data-depth="0.4" class="rounded-md relative top-0 -left-10" src="<?php echo get_stylesheet_directory_uri(); ?>/images/bg_flowers.jpg" alt="bg">
-        <img data-depth="0.05" class="rounded-md absolute top-10 right-15" src="<?php echo get_stylesheet_directory_uri(); ?>/images/profil.png" alt="profil">
+      <div id="scene"  data-relative-input="true" class="photo flex hidden bg-beige lg:block w-[470px] h-[470px] justify-center object-center rounded-full overflow-hidden">
+        <div class="relative h-full w-full" data-depth="-0.06">
+          <div class="absolute w-[120%] h-full bg-cover bg-center -left-[10%] -top-6 filter blur-sm opacity-85" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/bg_flowers.jpg);"></div>
+        </div>
+        <div class="relative h-full w-full" data-depth="0.06">
+          <img class="absolute w-full h-5/6 object-contain mt-auto mx-auto -bottom-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/JS-profil.png" alt="profil">
+        </div>
       </div>
   </section>
