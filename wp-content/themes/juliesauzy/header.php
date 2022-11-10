@@ -21,6 +21,7 @@
               "black": "var(--black)",
               "light-black": "var(--light-black)",
               "dark-green": "var(--dark-green)",
+              // "darker-green": "var(--darker-green)",
               "light-green": "var(--light-green)",
               "dark-corail": "var(--dark-corail)",
               "light-corail": "var(--light-corail)",
