@@ -9,7 +9,7 @@
             data-aos-once="true">
             Me contacter
           </h2>
-        <p  class="lg:mb-18 lg:my-5">Un projet de site en tête ? Une question ? N'hésitez pas à me contacter par email <em>(juliesauzy@outlook.com)</em>,<br>
+        <p  class="lg:mb-18 lg:my-5">Un projet de site en tête ? Une question ? N'hésitez pas à me contacter par email,<br>
        ou via le formulaire de contact ci-dessous:<br><em>(* Champs requis)</em>
         </p>
 
@@ -32,7 +32,7 @@
               <?php
               $message_mail = ob_get_clean();
               $headers = array('Content-Type: text/html; charset=UTF-8'); // set mail format to HTML
-              wp_mail( 'Juliesauzy@outlook.com', 'Message provenant du site', $message_mail, $headers );
+              wp_mail( 'juliesauzy.fr@gmail.com', 'Message provenant du site', $message_mail, $headers );
               ?>
             <div class="petales_animation fixed h-screen w-screen inset-0 flex items-center justify-center pointer-events-none"></div>
 
