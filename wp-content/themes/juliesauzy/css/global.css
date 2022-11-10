@@ -8,6 +8,7 @@
   --black: #282B30;
   --light-black: rgba(000, 000, 000, 0.3);
   --dark-green: #209284;
+  --darker-green: #195c54;
   --light-green: #DEEFED;
   --dark-corail: #FF9281;
   --light-corail: #FEDED9;
@@ -15,8 +16,8 @@
 }
 
 html {
-  scroll-behavior: smooth; // scroll de manière fluide et non instantanée à une ancre
-  scroll-padding-top: 120px; // ajoute du padding au scroll pour éviter d'avoir le header / menu qui masque la section scrollée
+  scroll-behavior: smooth; /* scroll de manière fluide et non instantanée à une ancre */
+  scroll-padding-top: 92px; /* ajoute du padding au scroll pour éviter d'avoir le header / menu qui masque la section scrollée */
 }
 
 body {
@@ -48,7 +49,16 @@ h4 {
   font-family: "DM Serif Display", Sans-serif !important;
   font-size: 25px !important;
   font-weight: 500 !important;
-  letter-spacing: -1.5px !important;
+  letter-spacing: -0.5px !important;
+}
+
+p {
+  font-size: 18px;
+  color: #737373;
+}
+
+.icons {
+  color: #000;
 }
 
 @media (max-width: 1024px) {
