@@ -70,8 +70,11 @@ Text Domain: juliesauzy
 }
 
 .btn_header:hover {
+  /* color: var(--dark-green); */
   color: #000;
-  background-color: #fff;
+  background-color: var(--light-green);
+  /* box-shadow: 20px -16px var(--dark-green); */
+  box-shadow: 8px 8px 2px  var(--dark-green);
 }
 
 .see_site:hover {
