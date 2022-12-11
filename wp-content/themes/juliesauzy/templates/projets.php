@@ -59,7 +59,7 @@
               <i data-tippy-content="WordPress" class="icons fa-brands fa-wordpress text-2xl"></i>
               <i data-tippy-content="Elementor" class="icons fa-brands fa-elementor text-2xl"></i>
             </p>
-            <!-- <a target="_blank" href="#" class="see_site my-5 group">Voir le site <i class="fa-solid fa-arrow-right group-hover:pl-2 duration-300 transform"></i></a> -->
+            <a target="_blank" href="https://www.mon-sejour-en-montagne.com/" class="see_site my-5 group">Voir le site <i class="fa-solid fa-arrow-right group-hover:pl-2 duration-300 transform"></i></a>
           </div>
         </div>
 
@@ -81,7 +81,7 @@
             data-aos-duration="1000"
             data-aos-delay="300"
             data-aos-once="false">
-            Spas Aquatechniques
+            DP-Diffusion
           </h4>
           <br>
             <a class="bg-dark-corail p-2 rounded-2xl text-white my-5">Freelance</a>
@@ -101,7 +101,7 @@
               <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/tailwind-css-2.svg" data-tippy-content="Tailwind" class="icons w-7" alt="tailwind">
               <i data-tippy-content="WordPress" class="icons fa-brands fa-wordpress text-2xl"></i>
             </p>
-            <!-- <a target="_blank" href="#" class="see_site my-5 group">Voir le site <i class="fa-solid fa-arrow-right group-hover:pl-2 duration-300 transform"></i></a> -->
+            <a target="_blank" href="https://dp-diffusion.fr/" class="see_site my-5 group">Voir le site <i class="fa-solid fa-arrow-right group-hover:pl-2 duration-300 transform"></i></a>
           </div>
 
         </div>
@@ -135,7 +135,7 @@
             <i data-tippy-content="JavaScript" class="icons fa-brands fa-square-js text-2xl"></i>
             <i data-tippy-content="Bootstrap" class="icons fa-brands fa-bootstrap text-2xl"></i>
             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/rails.svg" data-tippy-content="Ruby on Rails" class="icons w-12" alt="ruby_on_rails"></p>
-            <!-- <a target="_blank" href="https://www.youtube.com/watch?v=RZQYGEoD-0E&t=25s" class="see_site_corail my-5 group">Voir la vidéo <i class="fa-solid fa-arrow-right group-hover:pl-2 duration-300 transform"></i></a> -->
+            <a target="_blank" href="https://www.youtube.com/watch?v=RZQYGEoD-0E&t=25s" class="see_site_corail my-5 group">Voir la vidéo <i class="fa-solid fa-arrow-right group-hover:pl-2 duration-300 transform"></i></a>
           </div>
         </div>
 

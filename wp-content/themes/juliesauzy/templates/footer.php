@@ -2,7 +2,7 @@
   <footer class="footer bg-black text-center justify-center items-center text-light-white py-5">
     <div class="container">
       <div class="icons text-xl inline-flex justify-evenly w-36 h-full py-3 text-light-white">
-        <a href="mailto:juliesauzy@outlook.com"><i class="fa-regular fa-envelope hover:white"></i></a>
+        <a href="mailto:juliesauzy.fr@gmail.com"><i class="fa-regular fa-envelope hover:white"></i></a>
         <a target="_blank" href="https://www.linkedin.com/in/julie-sauzy-720583149/"><i class="fa-brands fa-linkedin-in hover:white"></i></a>
         <a target="_blank" href="https://github.com/Juusanlis"><i class="fa-brands fa-github hover:white"></i></a>
       </div>

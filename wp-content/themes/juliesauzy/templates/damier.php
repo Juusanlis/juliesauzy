@@ -8,7 +8,7 @@
             formation au Wagon <em>(bootcamp)</em>, je me forme désormais à WordPress ainsi qu'au<br>
             langage PHP.
           </p>
-          <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/CV_Julie_Sauzy.pdf" download class="btn">Télécharger mon CV <i class="fa-solid fa-download"></i></a>
+          <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/CV_2022_Julie_Sauzy.pdf" download class="btn">Télécharger mon CV <i class="fa-solid fa-download"></i></a>
         </div>
 
       <div id="scene"  data-relative-input="true" class="photo flex hidden bg-beige lg:block w-[470px] h-[470px] justify-center object-center rounded-full overflow-hidden">
